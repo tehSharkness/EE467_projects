@@ -1,0 +1,22 @@
+NET "CLK" LOC = AE14;
+NET "RST" LOC = D6;
+
+###LCD PINS
+NET "LCD_RS"   LOC = AC17;
+NET "LCD_RW"   LOC = AB17;
+NET "LCD_EN"    LOC = AE13;
+NET "LCD_DB<4>" LOC = AB10;
+NET "LCD_DB<5>" LOC = AC10;
+NET "LCD_DB<6>" LOC = AE12;
+NET "LCD_DB<7>" LOC = AF12;
+
+###NEWS BUTTONS
+NET "NEWSC<4>" LOC = B6; #center
+NET "NEWSC<3>" LOC = E7; #north
+NET "NEWSC<2>" LOC = F10; #east
+NET "NEWSC<0>" LOC = E9; #west
+NET "NEWSC<1>" LOC = A6; #south
+
+###UART PINS
+NET "SER_OUT" LOC = W1;
+NET "SER_IN" LOC = W2;

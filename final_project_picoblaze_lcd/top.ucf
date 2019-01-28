@@ -1,0 +1,16 @@
+NET "clk" LOC = "AE14";
+NET "lcd_rs"   LOC = "AC17";
+NET "lcd_rw"   LOC = "AB17";
+NET "lcd_e"    LOC = "AE13";
+NET "lcd_d<4>" LOC = "AB10";
+NET "lcd_d<5>" LOC = "AC10";
+NET "lcd_d<6>" LOC = "AE12";
+NET "lcd_d<7>" LOC = "AF12";
+
+
+###NEWS BUTTONS
+NET "news_buttons<4>" LOC = B6; #center
+NET "news_buttons<3>" LOC = E7; #north
+NET "news_buttons<2>" LOC = F10; #east
+NET "news_buttons<0>" LOC = E9; #west
+NET "news_buttons<1>" LOC = A6; #south

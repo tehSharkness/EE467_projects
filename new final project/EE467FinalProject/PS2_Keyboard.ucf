@@ -1,0 +1,11 @@
+NET "GPIO_LEDs<0>" LOC = G5;
+NET "GPIO_LEDs<1>" LOC = G6;
+NET "GPIO_LEDs<2>" LOC = A11;
+NET "GPIO_LEDs<3>" LOC = A12;
+NET "NEWS_LEDs<0>" LOC = E10;
+NET "NEWS_LEDs<1>" LOC = E2;
+NET "NEWS_LEDs<2>" LOC = A5;
+NET "NEWS_LEDs<3>" LOC = F9;
+NET "Clock" LOC = D2;
+NET "Data" LOC = G9;
+NET "Reset" LOC = D6;
